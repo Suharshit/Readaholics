@@ -65,5 +65,183 @@ a img{
 
 #center-part{
     display: flex;
-    
+    align-items: center;
+    height: 79%;
+    width: 100%;
+}
+
+#center-part h1{
+    font-size: 6.5vw;
+    color:#caf0f8;
+    margin: 0vw 6vw;
+}
+
+#center-part img{
+    margin: 0 15px;
+}
+
+#topseller{
+    height: 200%;
+    width:100%;
+    background-color: #0077b6;
+    color: #caf0f8;
+}
+
+#topsellertitle h1{
+    font-size: 5vw;
+    padding: 2vw 6vw;
+}
+
+#topseller #bookandtitle{
+    height: 80%;
+    margin: 3vw 6vw;
+}
+
+#bookandtitle #book1{
+    display: flex;
+    margin: 0.8vw 6vw;
+    justify-content: space-between;
+}
+
+#book1 #book1detail{
+    margin: 0vw 8vw;
+}
+
+#book1 img{
+    height: 15vw;
+    border-radius: 10px;
+}
+
+#book1detail h2{
+    font-size: 3vw;
+}
+
+#book1detail h3{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+#book1detail p{
+    font-size: 20px;
+}
+
+#bookandtitle #book2{
+    display: flex;
+    margin: 4vw 7vw 6vw 5vw;
+    justify-content: space-between;
+}
+
+#book2 img{
+    height: 15vw;
+    border-radius: 10px;
+}
+
+#book2 #book2detail{
+    margin: 0vw 10vw;
+    text-align: right;
+}
+
+#book2detail h2{
+    font-size: 3vw;
+}
+
+#book2detail h3{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+#book2detail p{
+    font-size: 20px;
+}
+
+#quotes{
+    height: 100%;
+    background-color: #03045e;
+    color: #caf0f8;
+}
+
+#quotes h1{
+    font-size: 7vw;
+    padding: 3vw 6vw;
+}
+
+#quotes #quotesdetails{
+    padding: 10vw 20vw;
+}
+
+#quotesdetails p{
+    font-size: 25px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+#quotesdetails h2{
+    font-size: 2vw;
+    margin: 0 3vw 0 3vw;
+}
+
+#footer{
+    background-color: #03045e;
+    color: #caf0f8;
+    padding: 2vw 6vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#fheading ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#fheading ul li{
+    margin: 0vw 2vw 0vw 0vw;
+}
+
+#flinks{
+    display: flex;
+}
+
+#company{
+    margin: 0 3.5vw 0 0;
+}
+
+#company ul{
+    list-style: none;
+    font-size: 20px;
+}
+
+#company a{
+    text-decoration: none;
+    color: #90bdef;
+}
+
+#workwithus{
+    margin: 0 2.6vw 0 0;
+}
+
+#workwithus ul{
+    font-size: 20px;
+    list-style: none;
+}
+
+#workwithus a{
+    text-decoration: none;
+    color: #90bdef;
+}
+
+#connect ul{
+    display: flex;
+    list-style: none;
+    font-size: 28px;
+}
+
+#connect li{
+    margin: 0 7px;
+}
+
+#connect a{
+    text-decoration: none;
+    color: #90bdef;
 }
