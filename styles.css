@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "farro light";
 }
 
 body, html{
     width: 100%;
     height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 #main{
@@ -27,6 +32,18 @@ body, html{
     font-family: "virtual";
     font-size: 30px;
     padding: 3vw 6vw;
+}
+
+#genre{
+    text-decoration: none;
+    color: #caf0f8;
+    border: none;
+    background: none;
+    font-size: 17px;
+}
+
+#genre option{
+    background-color: #0077b6;
 }
 
 #nright{
@@ -73,7 +90,7 @@ a img{
 #center-part h1{
     font-size: 6.5vw;
     color:#caf0f8;
-    margin: 0vw 6vw;
+    margin: 0vw 0vw 0vw 6vw;
 }
 
 #center-part img{
