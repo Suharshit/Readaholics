@@ -42,8 +42,20 @@ html{
     font-size: 17px;
 }
 
-#genre option{
-    background-color: #0077b6;
+.drop-down{
+    position: absolute;
+    background-color:#0077b6;
+    display: block;
+    right: 0;
+    top: 8vw;
+    margin: 0vw 6vw 0vw 18vw;
+    border-radius: 40px;
+    line-height: 2;
+    visibility: hidden;
+}
+
+li:hover .drop-down {
+    visibility: visible;
 }
 
 #nright{

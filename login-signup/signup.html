@@ -4,23 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="signup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div id="loginmain">
-        <div id="loginbg">
-            <div id="login">
-                <h1>LogIn</h1>
+    <div id="signupmain">
+        <div id="signupbg">
+            <div id="signup">
+                <h1>SignUp</h1>
                 <div class="email">
                     <label for="emailid">Email Id</label>
                     <input type="text" placeholder="Enter your email ID">
+                </div>
+                <div class="username">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter Username">
                 </div>
                 <div class="password">
                     <label for="password">Password</label>
                     <input type="text" placeholder="enter your password">
                 </div>
-                <button>LogIn</button>
+                <div class="confirm-password">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="text" placeholder="Confirm your password">
+                </div>
+                <div id="signupbtn">
+                    <button>Signup</button>
+                </div>
                 <h3>OR</h3>
                 <div id="sociallogin">
                     <ul>
@@ -28,9 +38,6 @@
                         <li><a href="#"><i class="ri-github-fill"></i></a></li>
                         <li><a href="#"><i class="ri-twitter-fill"></i></a></li>
                     </ul>
-                </div>
-                <div id="createaccount">
-                    <h2>To Create an account: <a href="#">signup</a></h2>
                 </div>
             </div>
         </div>
