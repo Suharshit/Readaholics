@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "farro light";
+    color: #caf0f8;
+    background-color: #03045e;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #03045e;
+}
+
+#nav{
+    height: 10vw;
+    width: 100%;
+    color: #caf0f8;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #03045e;
+}
+
+#nleft h2{
+    font-family: "virtual";
+    font-size: 50px;
+    padding: 3vw 6vw;
+}
+
+#genre{
+    text-decoration: none;
+    color: #caf0f8;
+    border: none;
+    background: none;
+    font-size: 17px;
+}
+
+#nright{
+    display: flex;
+    font-family: "farro light";
+    align-items: center;
+}
+
+#nright ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin: 0px 70px 0px 0px;
+}
+
+#nright ul li a{
+    color: #caf0f8;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+#nright input{
+    height: 2.5vw;
+    width: 15vw;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+    font-size: 14px; 
+    background-color: white;
+}
+
+a img{
+    height: 35px;
+    padding: 0px 10px;
+}
+
+#genrespace{
+    display: flex;
+}
+
+#genre-title{
+    margin: 0.1vw 0vw 0vw 0vw;
+    font-size: 25px;
+}
+
+#genre{
+    margin: 0.2vw 0vw 0vw 6vw;
+    line-height: 2;
+    font-size: 17px;
+    font-weight: 600;
+    position: fixed;
+    margin: 10vw 0vw 0vw 6vw;
+}
+
+#genre ul{
+    list-style: none;
+}
+
+#genre a{
+    text-decoration: none;
+}
+
+#line{
+    height: 570px;
+    width: 2px;
+    margin: 0vw 7vw;
+    background-color: #caf0f8;
+    position: fixed;
+    margin: 11vw 2vw 0vw 18vw;
+}
+
+#books{
+    background-color: #caf0f8;
+    margin: 10vw 0vw 0vw 24vw;
+}
+
+.sector{
+    height: 450px;
+}
+
+.sector .row{
+    height: 300px;
+    width: 70vw;
+    display: flex;
+}
+
+.row .bookpeice{
+    height: 350px;
+    width: 350px;
+    margin: 0vw 2.75vw 0vw 0vw;
+}
+
+.bookpeice img{
+    height: 280px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+}
+
+.bookpeice .details{
+    height: 130px;
+    width: 250px;
+    padding: 0px 30px 10px 20px;
+}
+
+.details h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.details h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.details p{
+    font-size: 14px;
+    padding: 4px 0px;
+    font-weight: 400;
+}
