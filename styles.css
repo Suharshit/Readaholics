@@ -18,6 +18,8 @@ html{
     width: 100%;
     height: 100%;
     background-color: #03045e;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 #nav{
@@ -26,11 +28,12 @@ html{
     color: #caf0f8;
     display: flex;
     justify-content: space-between;
+    scroll-snap-align: start;
 }
 
-#nleft{
+#nleft h2{
     font-family: "virtual";
-    font-size: 30px;
+    font-size: 50px;
     padding: 3vw 6vw;
 }
 
@@ -81,6 +84,7 @@ a img{
     align-items: center;
     height: 79%;
     width: 100%;
+    scroll-snap-align: start;
 }
 
 #center-part h1{
@@ -100,37 +104,46 @@ a img{
     color: #caf0f8;
 }
 
+#emptyspace{
+    height: 60px;
+}
+
+.contanier{
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
 #topsellertitle h1{
-    font-size: 5vw;
-    padding: 2vw 6vw;
+    font-size: 3.5vw;
+    padding: 0vw 6vw;
 }
 
-#topseller #bookandtitle{
+#topseller .bookandtitle{
     height: 80%;
-    margin: 3vw 6vw;
+    margin: 0vw 6vw;
 }
 
-#bookandtitle #book1{
+.bookandtitle .book1{
     display: flex;
-    margin: 0.8vw 6vw;
+    margin: 1vw 6vw;
     justify-content: space-between;
 }
 
-#book1 #book1detail{
-    margin: 0vw 8vw;
+.book1 #book1detail{
+    margin: 0vw 15vw 0vw 6vw;
 }
 
-#book1 img{
-    height: 15vw;
+.book1 img{
+    height: 13vw;
     border-radius: 10px;
 }
 
 #book1detail h2{
-    font-size: 3vw;
+    font-size: 2.2vw;
 }
 
 #book1detail h3{
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 500;
 }
 
@@ -138,28 +151,28 @@ a img{
     font-size: 20px;
 }
 
-#bookandtitle #book2{
+.bookandtitle .book2{
     display: flex;
-    margin: 4vw 7vw 6vw 5vw;
+    margin: 0.3vw 7vw 0vw 5vw;
     justify-content: space-between;
 }
 
-#book2 img{
-    height: 15vw;
+.book2 img{
+    height: 13vw;
     border-radius: 10px;
 }
 
-#book2 #book2detail{
-    margin: 0vw 10vw;
+.book2 #book2detail{
+    margin: 0vw 7vw 0vw 14vw;
     text-align: right;
 }
 
 #book2detail h2{
-    font-size: 3vw;
+    font-size: 2.2vw;
 }
 
 #book2detail h3{
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 500;
 }
 
@@ -171,6 +184,7 @@ a img{
     height: 100%;
     background-color: #03045e;
     color: #caf0f8;
+    scroll-snap-align: start;
 }
 
 #quotes h1{
@@ -199,6 +213,7 @@ a img{
     padding: 2vw 6vw;
     display: flex;
     justify-content: space-between;
+    scroll-snap-align: end;
 }
 
 #fheading ul{
