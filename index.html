@@ -6,6 +6,7 @@
     <title>ReadaHolics</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="main">
@@ -42,24 +43,24 @@
                 </div>
                 <div class="bookandtitle">
                     <div class="book1">
-                        <img src="books/books-images/book1.jpg" alt="book1">
-                        <div id="book1detail">
+                        <img class="img" src="books/books-images/book1.jpg" alt="book1">
+                        <div class="book1detail">
                             <h2>Believe in youself</h2>
                             <h3>by abc</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus ipsam qui ea velit voluptatem eos nulla dicta hic dolorem!</p>
                         </div>
                     </div>
                     <div class="book2">
-                        <div id="book2detail">
+                        <div class="book2detail">
                             <h2>you only live once</h2>
                             <h3>by xyz</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga eveniet deleniti ipsam laboriosam voluptas quis itaque in soluta accusantium doloribus.</p>
                         </div>
-                        <img src="books/books-images/book2.jpg" alt="book2">
+                        <img class="img" src="books/books-images/book2.jpg" alt="book2">
                     </div>
                     <div class="book1">
-                        <img src="books/books-images/book1.jpg" alt="book1">
-                        <div id="book1detail">
+                        <img class="img" src="books/books-images/book1.jpg" alt="book1">
+                        <div class="book1detail">
                             <h2>Believe in youself</h2>
                             <h3>by abc</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus ipsam qui ea velit voluptatem eos nulla dicta hic dolorem!</p>
@@ -71,24 +72,24 @@
                 <div id="emptyspace"></div>
                 <div class="bookandtitle">
                     <div class="book1">
-                        <img src="books/books-images/book1.jpg" alt="book1">
-                        <div id="book1detail">
+                        <img class="img" src="books/books-images/book1.jpg" alt="book1">
+                        <div class="book1detail">
                             <h2>Believe in youself</h2>
                             <h3>by abc</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus ipsam qui ea velit voluptatem eos nulla dicta hic dolorem!</p>
                         </div>
                     </div>
                     <div class="book2">
-                        <div id="book2detail">
+                        <div class="book2detail appear">
                             <h2>you only live once</h2>
                             <h3>by xyz</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga eveniet deleniti ipsam laboriosam voluptas quis itaque in soluta accusantium doloribus.</p>
                         </div>
-                        <img src="books/books-images/book2.jpg" alt="book2">
+                        <img class="img appear" src="books/books-images/book2.jpg" alt="book2">
                     </div>
                     <div class="book1">
-                        <img src="books/books-images/book1.jpg" alt="book1">
-                        <div id="book1detail">
+                        <img class="img" src="books/books-images/book1.jpg" alt="book1">
+                        <div class="book1detail">
                             <h2>Believe in youself</h2>
                             <h3>by abc</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum minus ipsam qui ea velit voluptatem eos nulla dicta hic dolorem!</p>
@@ -100,9 +101,10 @@
         <div id="quotes">
             <h1>QUOTES</h1>
             <div id="quotesdetails">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus consequatur ratione autem eaque vero repudiandae dolorum fuga repellat, quia minus suscipit magni consectetur sit, aut possimus alias blanditiis sed aspernatur?</p>
-                <h2>--Frank Zappa</h2>
-            </div>    
+                <p class="quotes-line">Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak.</p>
+                <h2 class="author">--Frank Zappa</h2>
+            </div>
+            <button class="quotesshiftter">new quotes</button>  
         </div>
         <div id="footer">
             <div id="fleft">
@@ -145,5 +147,10 @@
             </div>
         </div>
     </div>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

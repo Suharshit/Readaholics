@@ -100,12 +100,17 @@ a img{
 #topseller{
     height: 200%;
     width:100%;
-    background-color: #0077b6;
+    background-color: #03045e;
     color: #caf0f8;
 }
 
 #emptyspace{
     height: 60px;
+}
+
+.book1, .book2{
+    height: 33%;
+    width: 85%;
 }
 
 .contanier{
@@ -129,7 +134,7 @@ a img{
     justify-content: space-between;
 }
 
-.book1 #book1detail{
+.book1 .book1detail{
     margin: 0vw 15vw 0vw 6vw;
 }
 
@@ -138,16 +143,16 @@ a img{
     border-radius: 10px;
 }
 
-#book1detail h2{
+.book1detail h2{
     font-size: 2.2vw;
 }
 
-#book1detail h3{
+.book1detail h3{
     font-size: 1.7vw;
     font-weight: 500;
 }
 
-#book1detail p{
+.book1detail p{
     font-size: 20px;
 }
 
@@ -162,21 +167,21 @@ a img{
     border-radius: 10px;
 }
 
-.book2 #book2detail{
+.book2 .book2detail{
     margin: 0vw 7vw 0vw 14vw;
     text-align: right;
 }
 
-#book2detail h2{
+.book2detail h2{
     font-size: 2.2vw;
 }
 
-#book2detail h3{
+.book2detail h3{
     font-size: 1.7vw;
     font-weight: 500;
 }
 
-#book2detail p{
+.book2detail p{
     font-size: 20px;
 }
 
@@ -193,7 +198,7 @@ a img{
 }
 
 #quotes #quotesdetails{
-    padding: 10vw 20vw;
+    padding: 6vw 20vw 0vw 20vw;
 }
 
 #quotesdetails p{
@@ -205,6 +210,19 @@ a img{
 #quotesdetails h2{
     font-size: 2vw;
     margin: 0 3vw 0 3vw;
+}
+
+.quotesshiftter{
+    height: 50px;
+    width: 10vw;
+    margin: 30px 8vw 0vw 20vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #caf0f8;
+    color: #03045e;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 30px;
 }
 
 #footer{
